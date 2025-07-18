@@ -25,10 +25,4 @@ jobs:
 
       - name: Install Zig (via official release)
         run: |
-          ZIG_VERSION=$(curl -s https://ziglang.org/download/index.json | jq -r '.["master"]["version"]')
-          ZIG_URL=$(curl -s https://ziglang.org/download/index.json | jq -r '.["master"]["linux"]["x86_64"]["tarball"]')
-          curl -LO "$ZIG_URL"
-          tar -xf zig-linux-x86_64-*.tar.xz
-          ZIG_DIR=$(find . -maxdepth 1 -type d -name "zig-linux-x86_64-*")
-          echo "$PWD/$ZIG_DIR" >> $GITHUB_PATH
-          echo "Zig installed at $PWD/$ZIG_DIR"
+          apt install zig
