@@ -26,4 +26,19 @@ jobs:
       - name: Install Zig (via official release)
         run: |
           sudo apt install snap
-          snap install zig --classic --beta
+          sudo snap install zig --classic --beta
+
+      - name: Running C++
+        run: |
+          bash cpp_debug.sh
+          bash cpp_release.sh
+
+      - name: Running Rust
+        run: |
+          bash rust_debug.sh
+          bash rust_release.sh
+
+      - name: Running Zig
+        run: |
+          bash zig_debug.sh
+          bash zig_release.sh
