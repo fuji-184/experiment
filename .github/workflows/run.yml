@@ -25,4 +25,5 @@ jobs:
 
       - name: Install Zig (via official release)
         run: |
-          sudo apt install zig
+          sudo apt install snap
+          snap install zig --classic --beta
