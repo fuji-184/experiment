@@ -1,0 +1,68 @@
+
+lets gooooo
+
+
+c++ debug mode:
+
+Time needed for first compile: 6.10803 s
+Time needed for next compiles after initial compile:
+0.30079 s
+0.298237 s
+0.300249 s
+
+
+
+c++ release mode:
+
+Time needed for first compile: 1.35046 s
+Time needed for next compiles after initial compile:
+0.300878 s
+0.301941 s
+0.301347 s
+
+
+
+
+
+
+
+
+rust debug mode:
+
+Time needed for first compile: 10.103 s
+Time needed for next compiles after initial compile:
+0.0522308 s
+0.0523069 s
+0.0529795 s
+
+
+rust release mode:
+
+Time needed for first compile: 6.36327 s
+Time needed for next compiles after initial compile:
+0.053535 s
+0.0528479 s
+0.0520821 s
+
+
+
+
+
+
+
+zig debug mode:
+
+Time needed for first compile: 16.5749 s
+Time needed for next compiles after initial compile:
+0.071312 s
+0.0649683 s
+0.0631113 s
+
+
+zig release mmode:
+
+Time needed for first compile: 7.76829 s
+Time needed for next compiles after initial compile:
+0.0649331 s
+0.0645494 s
+0.0677037 s

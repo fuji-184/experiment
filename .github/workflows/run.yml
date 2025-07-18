@@ -28,11 +28,6 @@ jobs:
           sudo apt install snap
           sudo snap install zig --classic --beta
 
-      - name: Running C++
-        run: |
-          bash cpp_debug.sh
-          bash cpp_release.sh
-
       - name: Running Rust
         run: |
           bash rust_debug.sh
@@ -42,3 +37,8 @@ jobs:
         run: |
           bash zig_debug.sh
           bash zig_release.sh
+
+      - name: Running C++
+        run: |
+          bash cpp_debug.sh
+          bash cpp_release.sh
