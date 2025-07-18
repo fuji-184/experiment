@@ -25,4 +25,4 @@ jobs:
 
       - name: Install Zig (via official release)
         run: |
-          apt install zig
+          sudo apt install zig
